@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+
+Diseñado por José Manuel Lourido
+http://www.atycocene.com
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<title>Atyco Cene, S.L. / Modelos de viviendas</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="imagenes/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<!-- start header -->
+
+
+		
+<script src="cookie.js"></script>
+<div id="cookieatyco" style="display:none;position:fixed;left:0px;right:0px;bottom:40px;width:100%;min-height:40px;background: #333333;color:#dddddd;z-index: 99999;">
+<div style="width:100%;position:absolute;padding-left:5px;font-family:verdana;font-size:12px;top:30%;">
+ Esta web utiliza cookies propias y de terceros para mejorar su experiencia en la navegación. Al utilizar nuestros servicios, aceptas el uso que hacemos de las cookies.
+ <a href="javascript:void(0);" style="padding:4px;background:#4682B4;text-decoration:none;color:#fff;" onclick="PonerCookie();"><b>OK</b></a>
+ <a href="cookiesatycocene.pdf" target="_blank" style="padding-left:5px;text-decoration:none;color:#ffffff;">Más información</a>
+</div>
+</div>
+<script>
+function getCookie(c_name){
+ var c_value = document.cookie;
+ var c_start = c_value.indexOf(" " + c_name + "=");
+ if (c_start == -1){
+  c_start = c_value.indexOf(c_name + "=");
+ }
+ if (c_start == -1){
+  c_value = null;
+ }else{
+  c_start = c_value.indexOf("=", c_start) + 1;
+  var c_end = c_value.indexOf(";", c_start);
+  if (c_end == -1){
+   c_end = c_value.length;
+  }
+  c_value = unescape(c_value.substring(c_start,c_end));
+ }
+ return c_value;
+}
+function setCookie(c_name,value,exdays){
+ var exdate=new Date();
+ exdate.setDate(exdate.getDate() + exdays);
+ var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+ document.cookie=c_name + "=" + c_value;
+}
+if(geoip_country_code()=="ES" && getCookie('aviso')!="1"){
+ document.getElementById("cookieatyco").style.display="block";
+}
+function PonerCookie(){
+ setCookie('aviso','1',365);
+ document.getElementById("cookieatyco").style.display="none";
+}
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44958413-1', 'atycocene.com');
+  ga('send', 'pageview');
+
+</script>
+
+<div id="logo">
+<a href="index.html" target=blank><img src="imagenes/logoatyco1.gif" width=300 height=120 alt="logotipo" title="inicio" ></a>
+</div>
+
+
+<!-- end header -->
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53e74d8d5979d8da"></script>
+
+
+<!-- star menu -->
+<div id='cssmenu'>
+<ul>
+<li class='has-sub '><a href='index.html'><span>Inicio</span></a>
+<ul>
+<li><a href='index.html'><span>Inicio</span></a></li>
+<li><a href='cartapres.html'><span>Presentación</span></a></li>
+</ul>
+</li>
+<li class='active '><a href='atycodomo.html'><font color="red"><span>Domótica</span></font></a></li>   
+<li class='has-sub '><a href='#'><span>Productos</span></a>
+<ul>
+<li class='has-sub '><a href='atycodomo.html'><span>Domótica</span></a>
+<li class='has-sub '><a href='#'><span>Construcción</span></a>
+<ul>
+<li><a href='construcciones.html'><span>Viviendas construídas</span></a></li>
+<li><a href='modelos.html'><span>Modelos y precios</span></a></li>
+<li><a href='productos.html'><span>Unidades construcción</span></a></li>
+</ul>
+</li>
+<li class='has-sub '><a href='galeria1.html'><span>Dibujos</span></a>
+</ul>
+</li>
+<li class='has-sub '><a href='#'><span>Servicios</span></a>
+<ul>
+<li><a href='servicios.html'><span>Servicios</span></a></li>
+<li><a href='proyectos.html'><span>Proyecto y dirección</span></a></li>
+</ul>
+</li>
+<li class='active '><a href='acceso.php?direccion=usuarios.php'><span>Usuarios</span></a></li>   
+<li class='has-sub '><a href='#'><span>Blog</span></a>
+<ul>
+<li><a href='comentarios.php'><span>Blog-Noticias</span></a></li>
+<li><a href='dejacomentarios.html'><span>Escribir comentarios</span></a></li>
+</ul>
+</li>
+<li class='active '><a href='tienda/index.php'><img src="images/atycotienda.png"alt="tienda"><span>Tienda</span></a></li>   
+<li class='active '><a href='contacto.html'><span>Contacto</span></a></li>   
+</ul>
+</div>
+<!-- end menu -->
+<br>
+<a><font color="red">TU VIVIENDA ORIGINAL Y PERSONALIZADA... </font>
+<br>
+¡GESTIONAMOS TU CONSTRUCCIÓN...Ferrol. La Coruña.! </font></a> 
+
+
+<div id=atycodomocomen>
+<br>
+
+<div align="center"><a href="tipob100.html"> Anterior  </a><span style="color: red; font-size: 26pt"><strong>tiposj1</strong></span><a href="tiposj3.html" >  Siguiente</a></div>
+<br>
+<div align="center"><span style="color: #ffffff; font-size: 18pt">Planta sótano, baja y bajocubierta con 4 dormitorios</span></div>
+<hr style="width: 560px; height: 2px" align="center" color="690F14" size="3" />
+
+<img src="images/pdf.jpg" width="30" height="30" alt="descargar"><a href="imagenes/unidtipo100MOD.pdf" title="memoria de calidades" >Calidades</a>
+<img src="images/pdf.jpg" width="30" height="30" alt="descargar"><a href="imagenes/modelocontrato.pdf" title="modelo contractual tipo">Contrato tipo</a>
+<br>
+
+<div id="gallery">
+<img src="imagenes/tiposj1f.jpg" alt="" width="360" height="270" class="left" />
+
+<i><font color="red"> Alzados: </font></i>
+<li> <a href="imagenes/tiposj1f.jpg" title="A.Principal">A.Principal</a></li>
+<li> <a href="imagenes/tiposj1i.jpg" title="A.L.Izquierdo">A.L.Izquierdo</a></li>
+<li> <a href="imagenes/tiposj1d.jpg" title="A.L.Derecho">A.L.Derecho</a></li>
+<li> <a href="imagenes/tiposj1p.jpg" title="A.Posterior">A.Posterior</a></li>
+<br>
+<i><font color="red"> Plantas: </font></i>
+
+<li> <a href="https://farm9.staticflickr.com/8709/17406216315_a3d066937c_z.jpg" title="Planta Sótano">Planta Sótano</a></li>
+<li> <a href="https://farm8.staticflickr.com/7658/17218266618_58ed79c546_c.jpg" title="Planta Baja">Planta Baja</a></li>
+<li> <a href="https://farm8.staticflickr.com/7754/17404263572_3f362d9ae6_z.jpg" title="Planta Bajocubierta">Planta Bajocubierta</a></li>
+
+<br>
+<br>
+</div> 
+<br>
+
+
+<div id="content">
+<small>En cada uno de nuestros modelos le presentamos una descripción detallada de la memoria de calidades, la cual puede extender con nuestra sección de productos. Además ponemos a su disposición los planos de plantas y alzados, así como en muchos casos una imágen de la maqueta que se ha realizado de la vivienda. Por último y como no podía ser menos, detallamos el presupuesto de ejecución material de la obra, por la que nos comprometemos a ejecutarla, siempre previa consulta, y en las especificaciones generales que se detallan en el apartado de modelo contractual.</small>
+</div>        
+<!-- fin menú secundario -->
+</div>                           
+<br>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>jQuery lightBox plugin</title>
+<link rel="stylesheet" type="text/css" href="../style-projects-jquery.css" />
+<!-- Archivos utilizados por jQuery lightBox plugin -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+<!-- / fin de los archivos utilizados por el jQuery lightBox plugin -->
+  
+<!-- Ativando el jQuery lightBox plugin -->
+<script type="text/javascript">
+$(function() {
+$('#gallery a').lightBox();
+});
+</script>
+<style type="text/css">
+/* jQuery lightBox plugin - Gallery style */
+	
+#gallery {
+background-color: #444;
+text-align:right;
+border:1px solid red;
+opacity:0.8;
+padding: 10px;
+}
+#gallery ul { list-style: none; }
+#gallery ul li { display: inline; }
+#gallery ul img {
+border: 5px solid #3e3e3e;
+border-width: 5px 5px 20px;
+}
+#gallery ul a:hover img {
+border: 5px solid #fff;
+border-width: 5px 5px 20px;
+color: #fff;
+}
+#gallery ul a:hover { color: #fff; }
+</style>
+</head>
+
+
+<!-- start footer -->
+<div id="footer">
+<p class="legal">
+©2004-2014 Atyco Cene, S.L. Todos los derechos reservados.
+<br>
+Diseñado por <a href="http://www.atycocene.com/acceso.php?direccion=curriculum.php&usuario=usuario&contrase%F1a=contrase%F1a">J.Manuel Lourido</a>
+<br>
+
+<a href="http://www.atycocene.com/sitemap.html" onClick="crush=window.open('sitemap.html','popup','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=800,height=800');return false;">Mapa del sitio</a>
+</p>
+</div>
+</small></div><small>
+<!-- end footer -->
+

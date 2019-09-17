@@ -1,0 +1,33 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+
+#rotator
+{
+
+overflow: hidden;
+margin:0 auto 0 auto;
+display:block;
+margin:auto;
+position: absolute;
+width: 100%;
+height: 8%;
+}
+
+#rotator img
+
+{
+
+-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    behavior:url(border-radius.htc);
+
+margin: auto;
+width: 100%;
+height: 100%;
+}
+
+
