@@ -1,0 +1,525 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+
+Diseñado por José Manuel Lourido
+http://www.atycocene.com
+
+-->
+
+
+<html>
+	<head>
+		<title>Energyatyco. El control horario de la energía. Enchufe Discriminador horario inteligente. Atycodomo )))</title>
+		<meta charset="charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="keywords" content="Internet de las cosas, precio de la luz ahora, precio de la luz hoy,  precio de la electricidad ahora, precio de la electricidad hoy, tarifa de la luz ahora, tarifa de la luz hoy,  precio luz pvpc, factura de la luz, factura eléctrica, factura de la electricidad,tarifa nocturna, comparar precio de la luz, ahorrar luz, ahorrar electricidad, ahorrar energía, consumo eléctrico, precio de la luz en estos momentos,PVPC, precio voluntario pequeño consumidor" />
+		<meta name="description" content="<meta name="keywords" content="Internet de las cosas, dispositivo para el ahorro luz, enchufe ahorro luz, precio de la electricidad ahora, precio de la electricidad hoy, tarifa de la luz ahora, tarifa de la luz hoy,  precio luz pvpc, factura de la luz, factura eléctrica, factura de la electricidad, tarifa nocturna, comparar precio de la luz, ahorrar luz, ahorrar electricidad, ahorrar energía, consumo eléctrico, precio de la luz en estos momentos,PVPC, precio voluntario pequeño consumidor" />		
+
+
+
+<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<link href="imagenes/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Electrodoméstico', 'Consumo'],
+          ['Lavadora',     405],
+	['Secadora',      560],
+          ['Lavavajillas',      395],
+          ['Frigorífico',  435],
+          ['Horno',  1892],
+          ['Placa cocina', 674],
+          ['Termo ACS',    2563],
+	['Otros',    500]
+        ]);
+
+        var options = {
+          title: 'Consumo anual KWh',
+is3D: true,          
+
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+</head>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44958413-1', 'atycocene.com');
+  ga('send', 'pageview');
+
+</script>
+
+
+<script src="cookie.js"></script>
+<div id="cookieatyco" style="text-align:center;display:none;position:fixed;left:0px;right:0px;bottom:0px;width:100%;min-height:10%;background: #333333;color:#dddddd;z-index: 99999;">
+Esta web utiliza cookies propias y de terceros para mejorar su experiencia en la navegación.
+<br>
+Al utilizar nuestros servicios, aceptas el uso que hacemos de las cookies.
+ <a href="javascript:void(0);" style="padding:4px;background:#4682B4;text-decoration:none;color:#fff;" onclick="PonerCookie();"><b>OK</b></a>
+ <a href="cookiesatycocene.pdf" target="_blank" style="padding-left:5px;text-decoration:none;color:#ffffff;">Más información</a>
+</div>
+
+
+<script>
+function getCookie(c_name){
+ var c_value = document.cookie;
+ var c_start = c_value.indexOf(" " + c_name + "=");
+ if (c_start == -1){
+  c_start = c_value.indexOf(c_name + "=");
+ }
+ if (c_start == -1){
+  c_value = null;
+ }else{
+  c_start = c_value.indexOf("=", c_start) + 1;
+  var c_end = c_value.indexOf(";", c_start);
+  if (c_end == -1){
+   c_end = c_value.length;
+  }
+  c_value = unescape(c_value.substring(c_start,c_end));
+ }
+ return c_value;
+}
+function setCookie(c_name,value,exdays){
+ var exdate=new Date();
+ exdate.setDate(exdate.getDate() + exdays);
+ var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+ document.cookie=c_name + "=" + c_value;
+}
+if(geoip_country_code()=="ES" && getCookie('aviso')!="1"){
+ document.getElementById("cookieatyco").style.display="block";
+}
+function PonerCookie(){
+ setCookie('aviso','1',365);
+ document.getElementById("cookieatyco").style.display="none";
+}
+</script>
+
+
+	<body class="landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+	
+
+<h1 id="logo"><a href="energyatyco.html"><img src="imagenes/energyatyco.png" width=100 height=92 alt="energyatyco" /></a></h1>
+
+
+<nav id="nav">
+						<ul>
+
+							<li>
+								<a href="energyatyco.html">energyatyco</a>
+								<ul>
+									<li><a href="atycodomo.html">Atycodomo )))</a></li>
+									<li>
+										<a href="#">Usuarios</a>
+										<ul>
+											<li><a href="http://www.atycocene.com:3000">Api</a></li>
+											<li><a href="http://www.atycocene.com/avisosordenes.php">Avisos y órdenes</a></li>
+											<li><a href="http://www.atycocene.com/panel.php">Panel de control</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="http://www.atycocene.com/blog.php?palabraclave=&submit=Buscar&busqueda=Dom%F3tica">Blog</a></li>							
+							<li><a href="registroenergyatyco.html">Registrarse</a></li>
+							<li><a href="energyatycomovil.php" class="button special">Acceder</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+			<div class="content">
+		<header>
+
+
+							<h2><font color="red">energyatyco </font>
+<br>
+selecciona cada día
+<br>
+la hora más económica
+<br>
+de la energía eléctrica
+<br>
+para tus electrodomésticos
+<br>
+</h2>
+<p>
+Olvídate de los clásicos temporizadores
+<br>
+y no pierdas el tiempo con los complicados
+<br>
+paneles de programación de tu lavadora, lavavajillas,
+<br>
+termo ACS, radiadores, deshumidificadores, etc.
+</p>
+<font color="red">!Consume a la hora más económica, reduce la potencia contratada y ahorra en tu factura!</font>
+
+					</header>
+						<span class="image"><img src="imagenes/energyatyco4.jpg" alt="" /></span>
+
+</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+
+			<!-- One -->
+				<section id="one" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="https://c4.staticflickr.com/9/8899/28353757531_27a5eb6751_c.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+										<h2>La solución para el ahorro en la factura eléctrica</h2>
+										<p>Una solución que proporciona comodidad en la <font color="red">programación</font> diferida o retardada de <font color="red">lavadora y lavavajillas</font> para adaptarse cada día a los precios más bajos de la electricidad
+<br>
+También supone un gran avance en el control energético de los <font color="red">termos de Agua Caliente Sanitaria</font> optimizando las horas de conexión para cada modelo dependiendo de tus hábitos de consumo.
+
+</p>
+	
+
+								</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<p>Los precios de la energía varían cada día y hora 
+<br>
+y nos resulta incómodo adaptarnos a ellos.
+<br>
+Es por ello que se hace necesario un control automatizado de ciertos electrodomésticos.
+<br>
+Con energyatyco sólo debes dejar el electrodoméstico en On
+<br>
+y tu enchufe inteligente lo accionará a la mejor hora para tu bolsillo.
+<br>
+<font color="red">¿Sabías que si no consumes a la vez necesitas menos potencia y reduces tu factura?</font>
+</p>
+
+ 
+  
+
+    <div id="donutchart" style="width: 100%; height: 100%;"></div>
+
+
+
+<a href="energyatycoahorro.php" class="button" target="blank">Ejemplo de ahorro efectivo para hoy</a>
+<br>
+<br>
+
+
+								</div>
+								<div class="4u$ 12u$(medium)">
+									<p>La factura de la electricidad siempre ha sido difícil de interpretar y controlar.
+<br>
+A partir de ahora nos enfrentamos además al control de los <i> <a href="https://www.esios.ree.es/es/mercados-y-precios" target="blank">precios</a></i> que se aplicarán, en cuanto dispongamos del contador inteligente (no más allá de 2018), al consumo que hemos realizado en cada franja horaria.
+
+
+</p>
+<iframe width="460" height="258" src="https://www.youtube.com/embed/Wu2DLskns98" frameborder="0" allowfullscreen></iframe>
+
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="spotlight style2 right">
+					<span class="image fit main"><img src="imagenes/energyatyco3b.jpg" alt="" /></span>
+
+
+					<div class="content">
+						<header>
+							<h2>La vida está llena de imprevistos</h2>
+							<p>Y en ocasiones tus rutinas cambian.</p>
+						</header>
+						<p>Apagar el radiador eléctrico de la cocina ya no es un problema cuando decides comer en un restaurante.
+<br>
+No derroches energía y apaga tus aparatos eléctricos desde donde estés.
+</p>
+
+
+<h2>
+<font color="red">¡...controla tu consumo!</font>
+</h2>
+
+<!--
+<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+-->					
+
+</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="imagenes/energyatyco5.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>En búsqueda de la hora más económica...!</h2>
+							<p>Variando 24 h x 365 días del año</p>
+						</header>
+						<p>Selecciona la hora límite a la que deseas que tus electrodomésticos hayan finalizado y energyatyco buscará día a día la hora en la que la energía es más económica para activarlos.
+<br>
+<br>
+No estarás preocupado de consultar los precios, y tendrás la seguridad de estar ahorrando.
+</p>
+<h2>
+<font color="red">¡...controla tu horario!</font>
+</h2>
+						
+<!--						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+-->
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Four -->
+				<section id="four" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Un dispositivo, 3 enchufes, varias funcionalidades</h2>
+							<p>Ahorro, comodidad, seguridad...</p>
+						</header>
+						<div class="box alt">
+							<div class="row uniform">
+
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-area-chart"></span>
+									<h3><font color="red">La tarifa eléctrica por horas</font></h3>
+									<p>Con el nuevo sistema el consumidor de energía tendrá facturas de electricidad con precios de energía establecidos por hora de acuerdo a las cotizaciones diarias.
+<br>
+<br>
+Por tanto podrá ahorrar desplazando ciertos consumos a las horas en que la electricidad es más barata, por ejemplo programando lavadora, lavavajillas o termo de agua caliente para que funcione a las horas de energía más económicas.
+</p>
+
+<footer class="major">
+<ul class="actions">
+<li><a href="http://www.controlastuenergia.gob.es/factura-electrica/factura/Paginas/nueva-facturacion-horaria.aspx" class="button" target="blank">Nueva facturación horaria</a></li>
+</ul>
+</footer>
+de la energía eléctrica
+<br>
+
+</section>
+								
+
+
+<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-file"></span>
+									<h3><font color="red">Características principales</font></h3>
+									<p>
+
+
+<li><h3><font color="white">Ahorro en la factura:</font></h3></li>
+Cada día garantizará la hora de funcionamiento más económica
+<br>
+para tus electrodomésticos, y tendrás una opción que calculará
+<br>
+y te avisará de posibles usos alternos entre ellos,
+<br>
+con lo que podrás disminuir la potencia contratada y su precio mensual.
+<hr>
+<li><h3><font color="white">Comodidad en el uso</font></h3></li>
+Programación de los electrodomésticos que más consumen como la lavadora, el lavavajillas o el termo eléctrico en modo:
+<br>
+<li><i>Manual:</i></li> enciende y apaga con los horarios que establezcas.
+<br>
+<li><i>Semiautomático:</i> </li>estableces la hora de finalización y energyatyco elige automáticamente la hora de inicio más económica.
+<br>
+<li><i>Automático:</i> </li>energyatyco elige el inicio de funcionamiento del electrodoméstico a la hora más económica.
+<hr>
+<li><h3><font color="white">Seguridad:</font></h3></li>
+Has salido de casa deprisa y no te acuerdas si has desenchufado la plancha. Te ha surgido una comida y no vuelves a casa a comer. Desconéctalos estés donde estés, con un sólo click.
+<hr>
+<li><h3><font color="white"><i>Versión plus</i></font></h3></li>
+Encendido y apagado condicionado:</font>
+Posibilidad de conexión de sensores de temperatura, humedad, intensidad o presencia y condicionado de On/Off a valores mínimos o máximos ambientales. Enciende el radiador a una determinada temperatura, o conecta el deshumidificador cuando haya mucha humedad y en la hora más económica.
+<br>
+
+</p>
+
+
+
+</section>
+
+
+<section class="4u 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-comment"></span>
+									<h3><font color="red">Avisos y alertas</font></h3>
+									<p>Recibe avisos de los dispositivos que se encienden o apagan.
+<br>
+Si te has ausentado durante días estarás informado mediante el servicio de alertas si hay un corte eléctrico o fallo de conexión.</p>
+								</section>
+							</div>
+						</div>
+						
+
+
+
+
+
+
+<hr>
+Aquí puedes ver datos de consumo en los electrodomésticos según su etiquetado de eficiencia energética
+<footer class="major">
+<ul class="actions">
+<li><a href="http://appsinega.xunta.es/simuladores/electrodomesticos.html" class="button" target="blank">Simulador consumo</a></li>
+</ul>
+<hr>
+
+</footer>
+
+</div>
+			
+</section>
+
+<script type="text/javascript" language="javascript">
+function enviar()    {
+
+
+if ((document.getElementById("email").value.indexOf('@') == -1 )|| (document.getElementById("email").value=="")) 
+ {
+            alert("Completa el campo del correo electrónico");return false; 
+   } 
+       else            
+document.formregistro.submit();
+
+
+
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+<form action="productoenergyatyco.php" method="post" action="#" onsubmit="return enviar();" class="container 50%">
+<div class="row uniform 50%">
+<h1>Déjanos tu correo para avisarte de cuando está disponible el dispositivo</h1>
+<div class="8u 12u$(xsmall)">
+<input type="email" name="email" id="email" placeholder="Tu correo" />
+</div>
+
+<div class="4u$ 12u$(xsmall)"><input type="submit" value="Avísame" class="fit special" /></div>
+<div class="g-recaptcha" data-sitekey="6Leq4B0UAAAAAAKQx6MLbB_T2Jh0g6xKAh9bQLxX"></div>
+</div>
+</form>
+
+
+
+
+
+			<!-- Five -->
+				<section id="five" class="wrapper style2 special fade">
+					<div class="container">
+						<header>
+							<h2>Solicitar información</h2>
+							<p>Realiza tu consulta sobre energyatyco</p>
+						</header>
+						
+
+
+
+<form action="validarenergyatyco.php" method="post" target="_blank" class="container 50%">
+Nombre:
+<input type="text" name="nombre" placeholder="tu nombre" required>
+Mail:
+<input type="text" name="email" placeholder="tu correo electrónico" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" name="email" required>
+Motivo:
+<input type="text" name="asunto" placeholder="Energyatyco" value="Energyatyco" required>
+Mensaje:
+<br><textarea name="contenido" rows="7" cols="35" placeholder="Deseo que me envíen un correo electrónico cuando esté disponible la App de Energyatyco para el control inteligente de enchufes(Accede a la versión web Beta en el enlace anterior)" required>Consulta</textarea>
+Teléfono:
+<input type="text" name="telefono"placeholder="tu número de teléfono" value="00" required> 
+<br>
+<input type="submit" value="Enviar" name="submit" class="fit special">
+</form>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://twitter.com/atycodomo" class="icon alt fa-twitter" target="blank"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/Atyco-Cene-SL-158073650900143/" class="icon alt fa-facebook" target="blank"><span class="label">Facebook</span></a></li>
+						<li><a href="https://github.com/atycocene" class="icon alt fa-github" target="blank"><span class="label">GitHub</span></a></li>
+						<li><a href="contactoenergyatyco.html" class="icon alt fa-envelope" target="blank" ><span class="label">Email</span></a></li>
+					
+</ul>
+					<ul class="copyright">
+						<li>&copy; energyatyco. All rights reserved.</li>
+<li><a href="cookiesatycocene.pdf" target="_blank">Politica de privacidad. Información y política de Cookies</a></li>
+<li>Design: <a href="http://www.atycocene.com/josemanuellourido.html" target="blank">José Manuel Lourido</a></li>
+					</ul>
+				
+
+
+</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
