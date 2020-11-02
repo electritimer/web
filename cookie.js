@@ -1,0 +1,10 @@
+function geoip_country_code() { return 'ES'; }
+function geoip_country_name() { return 'Spain'; }
+function geoip_city()         { return ''; }
+function geoip_region()       { return ''; }
+function geoip_region_name()  { return ''; }
+function geoip_latitude()     { return '40.0000'; }
+function geoip_longitude()    { return '-4.0000'; }
+function geoip_postal_code()  { return ''; }
+function geoip_area_code()    { return ''; }
+function geoip_metro_code()   { return ''; }
