@@ -522,7 +522,8 @@ Correo electrónico:
 			    <li><a href="galeria1.html" target="_blank">Dibujos</a></li>
 			<li><a href="construcciones.html" target="_blank">Gestión de construcción</a></li>
                     <li><a href="proyectos.html" target="_blank">Proyectos y dirección de obra</a></li>
-			   			  
+			
+			
 			  </ul>
                   
 			
@@ -550,8 +551,9 @@ Correo electrónico:
                 <ul class="taglist">
                   
 			<br>
-			<br>    
 			<li><a href="https://twitter.com/atycodomo" target="blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+			<br>    
+			<li><a href="https://www.linkedin.com/in/josé-manuel-lourido-romero-19477033" target="blank"> Linkedin</a></li>
 			<br>
 			<br>
                 
@@ -582,6 +584,7 @@ Correo electrónico:
                   <nav>
                     <ul>
                       <li><a href="josemanuellourido.html" target="_blank">About</a></li>
+			    <li><a href="imagenes/curriculumjmlourido.pdf" target="_blank">Descargar curriculum</a></li>  
                       
                     </ul>
                   </nav>
@@ -712,3 +715,5 @@ function PonerCookie(){
     $(".bxslider").bxSlider({auto:!0,preloadImages:"all",mode:"horizontal",captions:!1,controls:!0,pause:10000,speed:1200,onSliderLoad:function(){$(".bxslider>li .slide-inner").eq(1).addClass("active-slide"),$(".slide-inner.active-slide .slider-title").addClass("wow animated bounceInDown"),$(".slide-inner.active-slide .slide-description").addClass("wow animated bounceInRight"),$(".slide-inner.active-slide .btn").addClass("wow animated zoomInUp")},onSlideAfter:function(e,i,n){console.log(n),$(".active-slide").removeClass("active-slide"),$(".bxslider>li .slide-inner").eq(n+1).addClass("active-slide"),$(".slide-inner.active-slide").addClass("wow animated bounceInRight")},onSlideBefore:function(){$(".slide-inner.active-slide").removeClass("wow animated bounceInRight"),$(".one.slide-inner.active-slide").removeAttr("style")}}),$(document).ready(function(){function e(){return"ontouchstart"in document.documentElement}function i(){if("undefined"!=typeof google){var i={center:[-37.817331,144.955652],zoom:15,mapTypeControl:!0,mapTypeControlOptions:{style:google.maps.MapTypeControlStyle.DROPDOWN_MENU},navigationControl:!0,scrollwheel:!1,streetViewControl:!0};e()&&(i.draggable=!1),$("#googleMaps").gmap3({map:{options:i},marker:{latLng:[23.709921,90.407143],options:{icon:"images/mapicon.png"}}})}}$("#masthead #main-menu").onePageNav(),i()}),$("#contactform").on("submit",function(e){e.preventDefault(),$this=$(this),$.ajax({type:"POST",url:$this.attr("action"),data:$this.serialize(),success:function(){alert("Message Sent Successfully")}})});
 
   </script>
+
+
